@@ -81,7 +81,8 @@
       "sectionCode": "screening-1",
       "topicCode": "cog",
       "questionType": "multiple-choice",
-      "questionText": "ให้ผู้สูงอายุจำคำ 3 คำ ได้แก่ หลานสาว มะม่วง ภูเขา",
+      "questionText": "ให้ผู้สูงอายุจำคำ 3 คำ ได้แก่",
+      "questionContent": "<big>หลานสาว มะม่วง ภูเขา</big>",
       "instructionText": "ให้ผู้สูงอายุพูดทวน 1 ครั้ง",
       "isMandatory": false,
       "orderNo": 0
