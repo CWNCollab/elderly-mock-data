@@ -1,0 +1,111 @@
+{
+  "documentCode": "",
+  "documentName": "",
+  "documentType": "",
+  
+  "rules": [
+    {      
+      "topicCode": "cog",
+      "operation": "less-than",
+      "cutPoint1": 5,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "cog",
+      "operation": "equal",
+      "cutPoint1": 5,
+      "resultCode": "normal"
+    }
+  ],
+  
+  "questions": [
+    {
+      "sectionCode": "social",
+      "questionType": "multiple-choice",
+      "questionText": "การอยู่อาศัย หรือ ผู้ดูแลเมื่อเจ็บป่วย",
+      "isMandatory": true,
+      "orderNo": 1,
+      "questionChoices": [
+        {
+          "choiceText": "ไม่ได้อยู่คนเดียว หรือ มีคนดูแลเมื่อเจ็บป่วย",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+         {
+          "choiceText": "อยู่คนเดียว หรือ ไม่มีคนดูแลเมื่อเจ็บป่วย",
+          "choiceValue": 1,
+          "orderNo": 0
+        }
+      ]
+    },
+    {
+      "sectionCode": "social",
+      "questionType": "multiple-choice",
+      "questionText": "ลักษณะที่อยู่อาศัย",
+      "isMandatory": true,
+      "orderNo": 1,
+      "questionChoices": [
+        {
+          "choiceText": "มั่นคงแข็งแรง หรือ ไม่มั่งคงแต่ไม่มีผลต่อความปลอดภัย ในชีวิตและสุขภาพ",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+         {
+          "choiceText": "ไม่มีที่อยู่อาศัย หรือ มีที่อยู่อาศัยแต่ไม่ปลอดภัยต่อชีวิต และสุขภาพ",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ],
+    },
+    {
+      "sectionCode": "social",
+      "questionType": "multiple-choice",
+      "questionText": "ความเพียงพอของรายได้ในการดำเนินชีวิต",
+      "isMandatory": true,
+      "orderNo": 2,
+      "questionChoices": [
+        {
+          "choiceText": "เพียงพอ",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+         {
+          "choiceText": "ไม่เพียงพอ",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ],
+    },
+    
+    {
+      "sectionCode": "screening-1",
+      "topicCode": "cog",
+      "questionType": "multiple-choice",
+      "questionText": "ให้ผู้สูงอายุจำคำ 3 คำ ได้แก่ หลานสาว มะม่วง ภูเขา",
+      "instructionText": "ให้ผู้สูงอายุพูดทวน 1 ครั้ง",
+      "isMandatory": false,
+      "orderNo": 0
+    },
+    {
+      "sectionCode": "screening-1",
+      "topicCode": "cog",
+      "questionType": "multiple-choice",
+      "questionText": "วันนี้วันอะไร วันที่เท่าไหร่ เดือนอะไร ปีอะไร ผู้สูงอายุตอบคำถามได้ถูกต้องใช่หรือไม่",
+      "isMandatory": true,
+      "orderNo": 1,
+      "questionChoices": [
+        {
+          "choiceText": "ใช่",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+         {
+          "choiceText": "ไม่ใช่",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    }
+    
+  ]
+}
