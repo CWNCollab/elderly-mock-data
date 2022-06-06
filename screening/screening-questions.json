@@ -4,7 +4,7 @@
   "documentType": "",
   
   "rules": [
-    {      
+    {
       "topicCode": "cog",
       "operation": "less-than",
       "cutPoint1": 5,
@@ -17,21 +17,20 @@
       "resultCode": "normal"
     }
   ],
-  
   "questions": [
     {
       "sectionCode": "social",
       "questionType": "multiple-choice",
       "questionText": "การอยู่อาศัย หรือ ผู้ดูแลเมื่อเจ็บป่วย",
       "isMandatory": true,
-      "orderNo": 1,
+      "orderNo": 0,
       "questionChoices": [
         {
           "choiceText": "ไม่ได้อยู่คนเดียว หรือ มีคนดูแลเมื่อเจ็บป่วย",
           "choiceValue": 0,
           "orderNo": 0
         },
-         {
+        {
           "choiceText": "อยู่คนเดียว หรือ ไม่มีคนดูแลเมื่อเจ็บป่วย",
           "choiceValue": 1,
           "orderNo": 0
@@ -50,12 +49,12 @@
           "choiceValue": 0,
           "orderNo": 0
         },
-         {
+        {
           "choiceText": "ไม่มีที่อยู่อาศัย หรือ มีที่อยู่อาศัยแต่ไม่ปลอดภัยต่อชีวิต และสุขภาพ",
           "choiceValue": 1,
           "orderNo": 1
         }
-      ],
+      ]
     },
     {
       "sectionCode": "social",
@@ -74,14 +73,13 @@
           "choiceValue": 1,
           "orderNo": 1
         }
-      ],
+      ]
     },
-    
     {
       "sectionCode": "screening-1",
       "topicCode": "cog",
       "questionType": "multiple-choice",
-      "questionText": "ให้ผู้สูงอายุจำคำ 3 คำ ได้แก่",
+      "questionText": "ให้ผู้สูงอายุจำคำ 3 คำ ได้แก่ หลานสาว มะม่วง ภูเขา",
       "questionContent": "<big>หลานสาว มะม่วง ภูเขา</big>",
       "instructionText": "ให้ผู้สูงอายุพูดทวน 1 ครั้ง",
       "isMandatory": false,
@@ -100,13 +98,317 @@
           "choiceValue": 0,
           "orderNo": 0
         },
-         {
+        {
           "choiceText": "ไม่ใช่",
           "choiceValue": 1,
           "orderNo": 1
         }
       ]
-    }
-    
+    },
+    {
+      "sectionCode": "screening-1",
+      "topicCode": "cog",
+      "questionType": "multiple-choice",
+      "questionText": "ขณะนี้ท่านกำลังอยู่ที่ไหน (บอกชื่อสถานที่) ผู้สูงอายุตอบคำถามได้ถูกต้องใช่หรือไม่",
+      "isMandatory": true,
+      "orderNo": 2,
+      "questionChoices": [
+        {
+          "choiceText": "ใช่",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่ใช่",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-1",
+      "topicCode": "mna",
+      "questionType": "multiple-choice",
+      "questionText": "ในช่วงสามเดือนที่ผ่านมาน้ำหนักของท่านลดลงมากกว่า 3 กิโลกรัมโดยไม่ได้ตั้งใจ",
+      "isMandatory": true,
+      "orderNo": 3,
+      "questionChoices": [
+        {
+          "choiceText": "ใช่",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่ใช่",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-1",
+      "topicCode": "mna",
+      "questionType": "multiple-choice",
+      "questionText": "ท่านรู้สึกไม่อยากอาหาร หรือรับประทานได้น้อยลงกว่าปกติ",
+      "isMandatory": true,
+      "orderNo": 4,
+      "questionChoices": [
+        {
+          "choiceText": "ใช่",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่ใช่",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-1",
+      "topicCode": "vis",
+      "questionType": "multiple-choice",
+      "questionText": "ท่านมีปัญหากับสายตาที่เป็นอุปสรรคในการมองเห็นเช่น",
+      "questionContent": "<ul><li>อ่านหนังสือลำบาก</li><li>ภาพที่เห็นไม่ชัดหรือมีบางอย่างมาบัง</li><li>กำลังรักษาโรคที่มีอาการกระทบการมองเห็น เช่น เบาหวาน ความดันโลหิตสูง ต้อประเภทต่างๆ เป็นต้น</li></ul>",
+      "isMandatory": true,
+      "orderNo": 5,
+      "questionChoices": [
+        {
+          "choiceText": "มี",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่มี",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-1",
+      "topicCode": "cog",
+      "questionType": "multiple-choice",
+      "questionText": "ให้ผู้สูงอายุบอกคำ 3 คำที่ให้จำไว้",
+      "questionContent": "<big>หลานสาว มะม่วง ภูเขา</big>",
+      "isMandatory": true,
+      "orderNo": 6,
+      "questionChoices": [
+        {
+          "choiceText": "0",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "1",
+          "choiceValue": 1,
+          "orderNo": 1
+        },
+        {
+          "choiceText": "2",
+          "choiceValue": 2,
+          "orderNo": 2
+        },
+        {
+          "choiceText": "3",
+          "choiceValue": 3,
+          "orderNo": 3
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-2",
+      "topicCode": "hrg",
+      "questionType": "multiple-choice",
+      "questionText": "ให้นิ้วโป้งกับนิ้วชี้มาถู โดยถูห่างจากหูของผู้สูงอายุประมาณ 1 นิ้ว ทีละข้าง ทั้งหูขวาและหูซ้าย (Finger rub test)",
+      "isMandatory": true,
+      "orderNo": 7,
+      "questionChoices": [
+        {
+          "choiceText": "ได้ยินทั้งสองข้าง",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่ได้ยินทั้ง 2 ข้าง",
+          "choiceValue": 1,
+          "orderNo": 1
+        },
+        {
+          "choiceText": "หูซ้ายไม่ได้ยิน",
+          "choiceValue": 1,
+          "orderNo": 2
+        },
+        {
+          "choiceText": "หูขวาไม่ได้ยิน",
+          "choiceValue": 1,
+          "orderNo": 3
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-2",
+      "topicCode": "dep",
+      "questionType": "multiple-choice",
+      "questionText": "ในช่วง 2 สัปดาห์ที่ผ่านมาจนถึงวันนี้ ท่านรู้สึกหดหู่ ท้อแท้ สิ้นหวังหรือไม่",
+      "isMandatory": true,
+      "orderNo": 8,
+      "questionChoices": [
+        {
+          "choiceText": "มี",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่มี",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-2",
+      "topicCode": "dep",
+      "questionType": "multiple-choice",
+      "questionText": "ในช่วง 2 สัปดาห์ที่ผ่านมาจนถึงวันนี้ ท่านรู้สึก เบื่อ ทำอะไรก็ไม่เพลิดเพลินหรือไม่",
+      "isMandatory": true,
+      "orderNo": 9,
+      "questionChoices": [
+        {
+          "choiceText": "มี",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่มี",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-2",
+      "topicCode": "dep",
+      "questionType": "multiple-choice",
+      "questionText": "ท่านสามารถทำกิจกรรมเหล่านี้ทั้งหมดได้ด้วยตนเองหรือไม่",
+      "questionContent": "<ul><li>กินข้าว</li><li>อาบน้ำ</li><li>ล้างหน้า</li><li>หวีผม</li><li>แปรงฟัน</li><li>แต่งตัว</li><li>ลุกนั่งจากที่นอน</li><li>เดินไปมาในบ้าน</li><li>ขึ้นลงบรรได</li><li>จัดการเรื่องการขับถ่าย</li></ul>",
+      "instructionText": "ถ้าทำข้อใดข้อหนึ่งไม่ได้ให้เลือก 'ไม่ได้'",
+      "isMandatory": true,
+      "orderNo": 10,
+      "questionChoices": [
+        {
+          "choiceText": "ได้ทั้งหมด",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่ได้",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-2",
+      "topicCode": "adi",
+      "questionType": "multiple-choice",
+      "questionText": "ท่านมีความยากลำบากในการเคี้ยวอาหารแข็งหรือไม่",
+      "isMandatory": true,
+      "orderNo": 11,
+      "questionChoices": [
+        {
+          "choiceText": "มี",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่มี",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-2",
+      "topicCode": "adi",
+      "questionType": "multiple-choice",
+      "questionText": "ท่านมีอาการเจ็บปวดในช่องปากหรือไม่",
+      "isMandatory": true,
+      "orderNo": 12,
+      "questionChoices": [
+        {
+          "choiceText": "มี",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่มี",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-2",
+      "topicCode": "uri",
+      "questionType": "multiple-choice",
+      "questionText": "ท่านมีอาการปัสสาวะเล็ดหรือราดจนรู้สึกกระทบต่อการใช้ชีวิตประจำวันหรือไม่",
+      "isMandatory": true,
+      "orderNo": 13,
+      "questionChoices": [
+        {
+          "choiceText": "มี",
+          "choiceValue": 0,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่มี",
+          "choiceValue": 1,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-3",
+      "topicCode": "mob",
+      "questionType": "multiple-choice",
+      "questionText": "ให้ผู้สูงอายุเดินไปและกลับด้วยตนเอง 6 เมตร ภายในระยะเวลา 12 วินาที",
+      "isMandatory": true,
+      "orderNo": 14,
+      "addon": "timer",
+      "questionChoices": [
+        {
+          "choiceText": "ทำได้",
+          "choiceValue": 1,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ทำไม่ได้",
+          "choiceValue": 0,
+          "orderNo": 1
+        }
+      ]
+    },
+    {
+      "sectionCode": "screening-3",
+      "topicCode": "mob",
+      "questionType": "multiple-choice",
+      "questionText": "มีประวัติหกล้มภายใน 6 เดือน อย่างน้อย 1 ครั้ง",
+      "isMandatory": true,
+      "orderNo": 15,
+      "questionChoices": [
+        {
+          "choiceText": "มี",
+          "choiceValue": 1,
+          "orderNo": 0
+        },
+        {
+          "choiceText": "ไม่มี",
+          "choiceValue": 0,
+          "orderNo": 1
+        }
+      ]
+    } 
   ]
 }
