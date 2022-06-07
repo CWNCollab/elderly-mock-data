@@ -497,12 +497,12 @@
       "questionChoices": [
         {
           "choiceText": "มี",
-          "choiceValue": 1,
+          "choiceValue": 0,
           "orderNo": 0
         },
         {
           "choiceText": "ไม่มี",
-          "choiceValue": 0,
+          "choiceValue": 1,
           "orderNo": 1
         }
       ]
