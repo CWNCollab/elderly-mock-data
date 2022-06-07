@@ -1,5 +1,5 @@
-{
-    "1": {
+[
+    {
         "surveyFactId": "1",
         "projectCode": "bkk001",
         "year": "2564",
@@ -60,7 +60,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "2": {
+    {
         "surveyFactId": "2",
         "projectCode": "bkk002",
         "year": "2564",
@@ -121,7 +121,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "3": {
+    {
         "surveyFactId": "3",
         "projectCode": "bkk003",
         "year": "2564",
@@ -182,7 +182,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "5": {
+    {
         "surveyFactId": "5",
         "projectCode": "bkk005",
         "year": "2564",
@@ -243,7 +243,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "6": {
+    {
         "surveyFactId": "6",
         "projectCode": "bkk006",
         "year": "2564",
@@ -304,7 +304,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "7": {
+    {
         "surveyFactId": "7",
         "projectCode": "bkk007",
         "year": "2564",
@@ -365,7 +365,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "8": {
+    {
         "surveyFactId": "8",
         "projectCode": "bkk008",
         "year": "2564",
@@ -426,7 +426,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "9": {
+    {
         "surveyFactId": "9",
         "projectCode": "bkk009",
         "year": "2564",
@@ -487,7 +487,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "10": {
+    {
         "surveyFactId": "10",
         "projectCode": "bkk010",
         "year": "2564",
@@ -548,7 +548,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "11": {
+    {
         "surveyFactId": "11",
         "projectCode": "bkk011",
         "year": "2564",
@@ -609,7 +609,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "12": {
+    {
         "surveyFactId": "12",
         "projectCode": "bkk012",
         "year": "2564",
@@ -670,7 +670,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "13": {
+    {
         "surveyFactId": "13",
         "projectCode": "bkk013",
         "year": "2564",
@@ -731,7 +731,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "14": {
+    {
         "surveyFactId": "14",
         "projectCode": "bkk014",
         "year": "2564",
@@ -792,7 +792,7 @@
         "icLatestCount": "100",
         "latestSource": "100"
     },
-    "15": {
+    {
         "surveyFactId": "15",
         "projectCode": "bkk015",
         "year": "2564",
@@ -853,4 +853,4 @@
         "icLatestCount": "100",
         "latestSource": "100"
     }
-}
+]
