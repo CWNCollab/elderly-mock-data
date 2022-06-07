@@ -6,14 +6,110 @@
   "rules": [
     {
       "topicCode": "cog",
-      "operation": "less-than",
+      "operation": "LT",
       "cutPoint1": 5,
       "resultCode": "decline"
     }, 
     {      
       "topicCode": "cog",
-      "operation": "equal",
+      "operation": "EQ",
       "cutPoint1": 5,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "mna",
+      "operation": "LT",
+      "cutPoint1": 2,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "mna",
+      "operation": "EQ",
+      "cutPoint1": 2,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "vis",
+      "operation": "LT",
+      "cutPoint1": 1,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "vis",
+      "operation": "EQ",
+      "cutPoint1": 1,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "hrg",
+      "operation": "LT",
+      "cutPoint1": 1,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "hrg",
+      "operation": "EQ",
+      "cutPoint1": 1,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "dep",
+      "operation": "LT",
+      "cutPoint1": 2,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "dep",
+      "operation": "EQ",
+      "cutPoint1": 2,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "adl",
+      "operation": "LT",
+      "cutPoint1": 1,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "adl",
+      "operation": "EQ",
+      "cutPoint1": 1,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "orl",
+      "operation": "LT",
+      "cutPoint1": 2,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "orl",
+      "operation": "EQ",
+      "cutPoint1": 2,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "uri",
+      "operation": "LT",
+      "cutPoint1": 1,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "uri",
+      "operation": "EQ",
+      "cutPoint1": 1,
+      "resultCode": "normal"
+    },
+    {
+      "topicCode": "mob",
+      "operation": "LT",
+      "cutPoint1": 2,
+      "resultCode": "decline"
+    }, 
+    {      
+      "topicCode": "mob",
+      "operation": "EQ",
+      "cutPoint1": 2,
       "resultCode": "normal"
     }
   ],
@@ -95,12 +191,12 @@
       "questionChoices": [
         {
           "choiceText": "ใช่",
-          "choiceValue": 0,
+          "choiceValue": 1,
           "orderNo": 0
         },
         {
           "choiceText": "ไม่ใช่",
-          "choiceValue": 1,
+          "choiceValue": 0,
           "orderNo": 1
         }
       ]
@@ -115,12 +211,12 @@
       "questionChoices": [
         {
           "choiceText": "ใช่",
-          "choiceValue": 0,
+          "choiceValue": 1,
           "orderNo": 0
         },
         {
           "choiceText": "ไม่ใช่",
-          "choiceValue": 1,
+          "choiceValue": 0,
           "orderNo": 1
         }
       ]
@@ -228,22 +324,22 @@
       "questionChoices": [
         {
           "choiceText": "ได้ยินทั้งสองข้าง",
-          "choiceValue": 0,
+          "choiceValue": 1,
           "orderNo": 0
         },
         {
           "choiceText": "ไม่ได้ยินทั้ง 2 ข้าง",
-          "choiceValue": 1,
+          "choiceValue": 0,
           "orderNo": 1
         },
         {
           "choiceText": "หูซ้ายไม่ได้ยิน",
-          "choiceValue": 1,
+          "choiceValue": 0,
           "orderNo": 2
         },
         {
           "choiceText": "หูขวาไม่ได้ยิน",
-          "choiceValue": 1,
+          "choiceValue": 0,
           "orderNo": 3
         }
       ]
@@ -290,7 +386,7 @@
     },
     {
       "sectionCode": "screening-2",
-      "topicCode": "dep",
+      "topicCode": "adl",
       "questionType": "multiple-choice",
       "questionText": "ท่านสามารถทำกิจกรรมเหล่านี้ทั้งหมดได้ด้วยตนเองหรือไม่",
       "questionContent": "<ul><li>กินข้าว</li><li>อาบน้ำ</li><li>ล้างหน้า</li><li>หวีผม</li><li>แปรงฟัน</li><li>แต่งตัว</li><li>ลุกนั่งจากที่นอน</li><li>เดินไปมาในบ้าน</li><li>ขึ้นลงบรรได</li><li>จัดการเรื่องการขับถ่าย</li></ul>",
@@ -300,19 +396,19 @@
       "questionChoices": [
         {
           "choiceText": "ได้ทั้งหมด",
-          "choiceValue": 0,
+          "choiceValue": 1,
           "orderNo": 0
         },
         {
           "choiceText": "ไม่ได้",
-          "choiceValue": 1,
+          "choiceValue": 0,
           "orderNo": 1
         }
       ]
     },
     {
       "sectionCode": "screening-2",
-      "topicCode": "adi",
+      "topicCode": "orl",
       "questionType": "multiple-choice",
       "questionText": "ท่านมีความยากลำบากในการเคี้ยวอาหารแข็งหรือไม่",
       "isMandatory": true,
@@ -332,7 +428,7 @@
     },
     {
       "sectionCode": "screening-2",
-      "topicCode": "adi",
+      "topicCode": "orl",
       "questionType": "multiple-choice",
       "questionText": "ท่านมีอาการเจ็บปวดในช่องปากหรือไม่",
       "isMandatory": true,
